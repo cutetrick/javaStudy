@@ -80,7 +80,7 @@ public class E11Polymorphism {
 		 부모의 참조변수로 접근하려면 아래와 같이 강제형변환 해야한다.
 		 소괄호를 이용해서 우선순위에 대한 부분을 처리해야 에러가 발생하지 않는다.
 		 */
-		(MyChild)myParent.childMember = 1;
+		((MyChild)myParent).childMember = 1;
 		((MyChild)myParent).childMember = 1;
 		((MyChild)myParent).childMethod();
 		((MyChild)myParent).parentMethod();
