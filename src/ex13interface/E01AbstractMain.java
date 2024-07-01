@@ -101,7 +101,7 @@ public class E01AbstractMain {
 		 */
 		AbsClass1.staticMethod();
 		AbsClassChild1.staticMethod();
-		System.out.println("int형의 최대값:" AbsClass1.MAX_INT);
+		System.out.println("int형의 최대값:" + AbsClass1.MAX_INT);
 		
 	}
 

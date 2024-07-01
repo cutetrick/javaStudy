@@ -29,7 +29,8 @@ public class Ex08AsList {
 		 초기데이터를 통해 크기를 유추할 수 있으므로 크기는 선언문장에서
 		 생략해야한다.
 		 */
-		String[] strArr = new String[] {"마린","파이어뱃", "메딕","마린"};
+		String[] strArr = new String[] {"마린","파이어뱃",
+				"메딕","마린"};
 		/*
 		 Arrays.asList(): 일반 배열을 List<T>컬렉션으로 변경할 때
 		 사용한다. 단, 값을 참조만 할 수 있고 입력이나 삭제는 할 수 없다.

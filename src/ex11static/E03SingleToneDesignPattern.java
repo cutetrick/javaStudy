@@ -55,7 +55,6 @@ class NoSingleTone {
 	        NoSingleTone nst2 = new NoSingleTone();
 	        nst2.instVar = 200;
 	        System.out.println("nst2=" + nst2);
-
 	        /*
 	         생성자가 private으로 선언되어 새로운 인스턴스를 생성할 수 없다.
 	         생성자가 not visible 즉 보이지 않는다는 에러가 발생한다.
@@ -83,3 +82,4 @@ class NoSingleTone {
 	        System.out.println(String.format("st3의 shareVar:%d", st3.shareVar)); // 200
 	    }
 	}
+}

@@ -41,5 +41,5 @@ public class QuRectangleMainT {
 	       	sqr.showAreaInfo();
    		}
 	}
-}
+
 

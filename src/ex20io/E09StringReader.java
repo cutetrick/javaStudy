@@ -34,8 +34,9 @@ public class E09StringReader {
 				System.out.println(str);
 			}
 			in.close();
+		}catch (Exception e) {
+			System.out.println(e.getMessage());
 		}
-		
 	}
 
 }
