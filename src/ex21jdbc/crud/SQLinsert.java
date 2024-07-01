@@ -22,7 +22,7 @@ public class SQLinsert extends MyConnection {
 			//정적쿼리문 실행을 위한 Statement 인스턴스를 생성
 			stmt = con.createStatement();
 			//insert 쿼리문 작성.
-			query = "INSERT INTO member VALUES" + "('test2','2222','테스터2',sysdate)";
+			query = "INSERT INTO member VALUES" + "('test3','3333','테스터3',sysdate)";
 		//쿼리 실행 및 결과반환
 			result = stmt.executeUpdate(query);
 			//insert 성공시 1, 실패시 0을 반환한다.
